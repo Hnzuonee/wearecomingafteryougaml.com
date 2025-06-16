@@ -218,3 +218,29 @@ blockquote footer { font-style: normal; color: #a0a0a0; margin-top: 5px; }
 }
 .portfolio-footer a { color: #aaa; text-decoration: none; }
 .portfolio-footer a:hover { color: var(--primary-color); }
+
+
+/* --- Styly pro hlavní CTA Download tlačítko --- */
+.full-width-cta-section {
+    background-color: #1a1a1a; /* Lehce odlišné pozadí pro oddělení */
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0; /* Vynulujeme margin kontejneru */
+}
+
+.btn-download-app {
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    max-width: 80%;
+    line-height: 1.5; /* Lepší pro víceslovný text */
+    background: linear-gradient(45deg, #03dac6, #bb86fc); /* Výrazný gradient */
+    color: #121212;
+    border: none;
+    box-shadow: 0 5px 20px rgba(3, 218, 198, 0.4);
+}
+
+.btn-download-app:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(187, 134, 252, 0.5);
+}
